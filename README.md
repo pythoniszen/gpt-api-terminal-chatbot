@@ -1,10 +1,10 @@
 # GPT-based Chatbot
 
 ## Introduction
-This project is a simple chatbot powered by OpenAI's GPT models. It provides an interface for users to interact with a conversational AI agent locally. The chatbot leverages OpenAI's advanced language models to understand and respond to user queries.
+This project is a terminal-based chatbot, exclusively operated through command-line interactions. It harnesses the power of OpenAI's GPT models to facilitate a text-based conversational AI experience. Designed to run locally, this chatbot utilizes OpenAI's language models to comprehend and respond to user inputs in a terminal environment.
 
 ## Features
-- Interactive chat interface.
+- Terminal chatbot
 - Powered by OpenAI's GPT-4 (or specify your model).
 - Easy to use and integrate.
 
@@ -30,6 +30,8 @@ key should be placed in line 3 in between the "" where it says "your-api-key".
 ## Usage
 To start the chatbot, run: python3 chatbot.py while in the project directory.
 Follow the on-screen prompts to interact with the chatbot.
+
+Respond with "quit" to the chatbot to close the program.  
 
 ## Customization
 You can customize the chatbot by modifying the `chatbot.py` file. Adjust parameters like `model`, `temperature`, and `max_tokens` as per your requirements.
