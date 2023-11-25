@@ -5,7 +5,7 @@ This project is a simple chatbot powered by OpenAI's GPT models. It provides an 
 
 ## Features
 - Interactive chat interface.
-- Powered by OpenAI's GPT-3.5 (or specify your model).
+- Powered by OpenAI's GPT-4 (or specify your model).
 - Easy to use and integrate.
 
 ## Prerequisites
@@ -21,9 +21,7 @@ Run: git clone https://github.com/pythoniszen/gpt-api-chatbot.git
 
 
 2. **Install Dependencies:**
-Run: "pip install openai==0.28" to be able to use the code as it is
-written based on an older version of the openai api code. Newer versions
-require different syntax than what is used in this program.
+Run: pip install openai
 
 3. **API Key Configuration:**
 Place your open ai api key generated from openai in the main.py file. The
